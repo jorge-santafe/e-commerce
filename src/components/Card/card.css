@@ -1,0 +1,48 @@
+.card {
+    border-radius: 0.3em;
+    min-height: 30vh;
+    min-width: 230px;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card img {
+    max-width: 12vw;
+    max-height: 20vw;
+}
+
+.card h5 {
+    text-transform: capitalize;
+    margin: 5px;
+}
+
+.card h4 {
+    text-align: center;
+}
+
+.card p.card-price {
+    background-color: #169269;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    border-radius: 0.3em;
+    margin: 10px;
+}
+
+.card .ver-mas {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(148, 154, 155);
+    border-radius: 0.3em;
+    padding: 5px;
+    text-align: center;
+}
